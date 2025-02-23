@@ -12,7 +12,7 @@ from PIL import Image
 import os
 
 # Google Drive File ID for the new X-ray Classifier model
-GDRIVE_FILE_ID = "1-BCKd-ssavT3O8HQ-NSeP1fuswuMDeMa"
+GDRIVE_FILE_ID = "12j3kIsjT8HD0mD6bMTafvLCl5APNYPB_"
 
 @st.cache_resource
 def download_tflite_model():
